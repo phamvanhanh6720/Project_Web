@@ -1,0 +1,33 @@
+rewriteEngine On
+# product
+rewriteRule ^san-pham.html$ ?mod=product&action=index
+
+# product category 
+rewriteRule ^danh-muc/([a-zA-Z0-9_-]+)-([0-9]+).html$ ?mod=product&action=cat_product&cat_id=$2&slug=$1
+
+# product detail
+rewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+)-i.html$ ?mod=product&action=detail_product&product_id=$2&slug=$1
+
+# menu
+rewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+).html$ ?mod=$1&controller=index&action=index&menu_id=$2
+
+# cart
+rewriteRule ^gio-hang.html$ ?mod=cart
+rewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+)-c.html$ ?mod=cart&action=add_cart&product_id=$2&slug=$1
+
+# delete cart
+rewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+)-d.html$ ?mod=cart&action=delete_cart&product_id=$2
+
+#buy-now
+rewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+)-b.html$ ?mod=home&action=buy_now&product_id=$2&slug=$1
+rewriteRule ^thanh-toan.html$ ?mod=cart&action=checkout
+
+# Order
+rewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+)-or.html$ ?mod=home&action=order&product_id=$2
+rewriteRule ^dat-hang.html$ ?mod=cart&action=order
+
+#search
+rewriteRule ^tim-kiem.html$ ?mod=home&controller=index&action=search_products
+rewriteRule ^loc-([a-zA-Z0-9_-]+).html$ ?mod=home&action=search_filter&value=$1
+#Blog
+rewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+)-blog.html$ ?mod=blog&action=detail_blog&post_id=$2&slug=$1
