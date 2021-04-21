@@ -1,0 +1,105 @@
+/*body{
+    font-size: 14px;
+    font-family: arial;
+    line-height: 23px;
+    background: #029ef3;
+}
+#head-form{
+    font-size: 18px;
+    padding: 0 0 20px;
+}
+#wp-form-login{
+    width: 300px;
+    background: #f2f8f8;
+    border-radius: 3px;
+    padding: 30px 20px;
+    margin: 150px auto;
+    text-align: center;
+}
+#username, #form-login, #password{
+    display: block;
+    padding: 6px 10px;
+    width: 100%;
+    border: none;
+    background: #f7f7f7;
+}
+#form-login #btn-login{
+    display: block;
+    width: 100%;
+    background: #029ef3;
+    border: none;
+    color: white;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#forget-password{
+    color: #74adcf;
+    text-decoration: underline;
+}
+#form-login .error{
+    color: red;
+}
+#remember-me{
+    color: #74adcf;
+}*/
+body{
+    font-size: 14px;
+    font-family: arial;
+    line-height: 32px;
+    background: #4fa327;
+}
+#wp-form-login{
+    width: 300px;
+    min-height: 200px;
+    text-align: center;
+    margin: 150px auto;
+    padding: 30px 20px;
+    background: #f2f8f8;
+    border-radius: 5px;
+}
+#head-form{
+    font-size: 18px;
+    padding: 0 0 5px;
+}
+#username, #form-login, #password, #email, #fullname, #phone-number{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px 5px;
+    background: #f7f7f7
+}
+label{
+    display: block;
+    font-weight: bold;
+    text-align: left;
+}
+#btn-login, #btn-new-pass{
+    display: block;
+    width: 100%;
+    background: #4fa327;
+    margin: 20px 20xp;
+    padding: 10px 0px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#forget-password, #register{
+    color: #4fa327;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+.error{
+    color: red;
+}
+#remember-me{
+    color: #4fa327;
+}
+
+
+
