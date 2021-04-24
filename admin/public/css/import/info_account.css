@@ -1,0 +1,41 @@
+/*INFOR ADMIN*/
+.info-account-page #detail-page .section-detail label{ display: block; padding-bottom: 10px; font-family: 'Roboto Medium'; font-weight: normal;}
+.info-account-page #detail-page .section-detail input[type="text"], #detail-page .section-detail input[type="tel"], #detail-page .section-detail input[type="email"], #detail-page .section-detail input[type="select"],#detail-page .section-detail input[type="password"]{
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: 35%;
+    margin-bottom: 15px;
+}
+.info-account-page #detail-page .section-detail textarea{
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: 50%;
+    height: 150px;
+    margin-bottom: 25px;
+}
+.info-account-page #detail-page .section-detail select{
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+}
+.info-account-page #detail-page .section-detail button{
+    display: block;
+    border: none;
+    outline: none;
+    background: #4fa327;
+    color: #fff;
+    padding: 8px 20px;
+    margin-bottom: 50px;
+}
+.info-account-page #detail-page .section-detail button:hover{ background: #3a7d19;}
+/* #username{ cursor: not-allowed; background: #f3f3f3;} */
+.active-num-page a{
+    color:red!important;
+}
+#dropdown-user #thumb-circle img{
+    width: 40px;
+    height: 40px;
+}

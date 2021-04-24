@@ -1,0 +1,62 @@
+/*MENU*/
+.menu-page #list-menu{
+    width: 30%;
+    background: #fff;
+}
+.menu-page #category-menu{ 
+    width: 70%;
+    padding-left: 30px;
+}
+.menu-page #list-menu .form-group{ padding-bottom: 15px;}
+.menu-page #list-menu .form-group label{
+    display: block;
+    color: #364150;
+    padding-bottom: 10px;
+}
+.menu-page #list-menu .form-group input, .menu-page #list-menu .form-group textarea{ width: 100%; float: none;}
+.menu-page #list-menu .form-group textarea{ height: 100px;}
+.menu-page #list-menu .form-group p{
+    font-size: 13px;
+    color: #9b9b9b;
+    line-height: 18px;
+    padding-top: 10px;
+}
+.menu-page .section-detail label{
+    font-size: 15px;
+    display: block;
+    font-family: 'Roboto Medium';
+    font-weight: normal;
+}
+.menu-page .section-detail input[type="text"], .menu-page .section-detail input[type="number"]{
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: 30%;
+}
+.form-group select{ 
+    width: 100%!important;
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+}
+.menu-page .section-detail #btn-save-list{
+    display: block;
+    border: none;
+    outline: none;
+    background: #4fa327;
+    color: #fff;
+    padding: 12px 20px;
+    text-transform: uppercase;
+}
+.actions select{
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 4px 10px;
+}
+.actions button{
+    border-radius: 3px;
+    border: 1px solid #afafaf;
+    padding: 2px 15px;
+    background: #fafafa;
+}
+.actions button:hover{ background: #e2e2e2;}
