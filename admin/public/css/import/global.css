@@ -11,7 +11,7 @@ img{
     height: auto;
     display: block;
 }
-/*Reset Bootstrap*/
+/*Reset*/
 ul li{ list-style: none!important;}
 a{ text-decoration: none!important;}
 .dropdown-menu{
