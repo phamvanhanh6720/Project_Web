@@ -1,0 +1,158 @@
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    width: 500%;
+    display: flex;
+    text-align: center;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* css for manual slide navigation */
+
+.navigation-manual {
+    position: absolute;
+    width: 900px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    margin-top: 410px;
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background: #40D3DC;
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -20%;
+}
+
+#radio3:checked~.first {
+    margin-left: -40%;
+}
+
+
+/* css for automatic navigation  */
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+}
+
+.navigation-auto div {
+    display: none;
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+    background: #40D3DC;
+}
+
+#radio2:checked~.navigation-auto .auto-btn2 {
+    background: #40D3DC;
+}
+
+#radio3:checked~.navigation-auto .auto-btn3 {
+    background: #40D3DC;
+}
+
+
+/* Style item_slider */
+
+.item_slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+#item_slides {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    left: 0;
+    transition: 1s ease-in-out;
+}
+
+ul#item_slides>li {
+    width: 24.6%;
+    margin: 0% 0.2% !important;
+    font-size: 14px;
+}
+
+
+/* ul#item_slides>li>a.thumb {
+    width: 198px !important;
+    height: 198px;
+    overflow: hidden;
+} */
+
+ul#item_slides>li>a.thumb img {
+    min-width: 197.38px;
+}
+
+
+/* style next and prev button */
+
+.change_slide {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 832px;
+}
+
+.change_slide .btn {
+    border: none;
+    outline: none;
+    background: #d5d5d5;
+    padding: 6px 6px 4px 6px;
+    font-size: 10px;
+    color: #333;
+    cursor: pointer;
+    margin: 10px auto;
+    /* line-height: normal; */
+    opacity: 0.7;
+}
+
+.change_slide .btn:hover {
+    background: #c0c0c0;
+}

@@ -1,0 +1,32 @@
+/*STYLE*/
+@import '../public/css/import/fonts.css';
+@import '../public/css/import/global.css';
+@import '../public/css/import/header.css';
+@import '../public/css/import/footer.css';
+@import '../public/css/import/home.css';
+@import '../public/css/import/category_product.css';
+@import '../public/css/import/blog.css';
+@import '../public/css/import/detail_product.css';
+@import '../public/css/import/detail_blog.css';
+@import '../public/css/import/cart.css';
+@import '../public/css/import/checkout.css';
+@import '../public/css/import/loader.css';
+.error, .num-rows, #no-cart{
+    color: red;
+    font-style: italic;
+}
+/* 
+color status 
+*/
+.text-primary{
+    color: blue;
+}
+.text-success{
+    color: green;
+}
+.text-danger{
+    color: red;
+}
+.active-num-page{
+    background-color: #a4dce8!important;
+}
