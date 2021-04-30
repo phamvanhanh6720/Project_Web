@@ -41,10 +41,6 @@ ready(() => {
     //  MAIN MENU
     document.querySelector('#category-product-wp .list-item > li')?.querySelector('.sub-menu').insertAdjacentHTML("afterend", '<i class="fa fa-angle-right arrow" aria-hidden="true"></i>');
 
-    //  TAB
-    // tab();
-
-    //  EVEN MENU RESPON
     document.querySelector('#btn-respon i').addEventListener('click', function (event) {
         var site = document.querySelector('#site');
 
@@ -79,18 +75,3 @@ ready(() => {
     });
 });
 
-
-
-// function tab() {
-//     var tab_menu = document.querySelector('#tab-menu li');
-//     tab_menu.pause().click(function () {
-//         tab_menu.classList.remove('show');
-//         tab_menu.classList.add('show');
-//         var id = tab_menu.querySelector('a').getAttribute('href');
-//         document.querySelector('.tabItem').style.display = "none";
-//         document.querySelector(id).style.display = "";
-//         return false;
-//     });
-//     document.querySelector('#tab-menu li:first-child').classList.add('show');
-//     document.querySelector('.tabItem:first-child').style.display = "";
-// }
