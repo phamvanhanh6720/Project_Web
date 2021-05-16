@@ -1,0 +1,84 @@
+/*CATEGOGRY PRODUCT*/
+#breadcrumb-wp{ margin-bottom: 20px;}
+#breadcrumb-wp .list-item li{ float: left;}
+#breadcrumb-wp .list-item li a{
+    position: relative;
+    display: block;
+    color: #333;
+    padding-left: 20px;
+    line-height: normal;
+}
+#breadcrumb-wp .list-item li:first-child a:before{
+    position: absolute;
+    content: '\f015';
+    font-family: 'FontAwesome';
+    top: 1px;
+    left: 0;
+    line-height: normal;
+}
+#breadcrumb-wp .list-item li:nth-child(n+2) a:before{
+    position: absolute;
+    content: '\f105';
+    font-family: 'FontAwesome';
+    top: 1px;
+    left: 8px;
+    line-height: normal;
+}
+.category-product-page #list-product-wp .section-title{ margin: 0;}
+.category-product-page #list-product-wp .section-head{ margin-bottom: 50px;}
+.filter-wp .desc{ margin-bottom: 5px; color: #666; text-align: right;}
+.filter-wp form select{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #cecece;
+    color: #666;
+}
+.filter-wp form button{
+    position: relative;
+    left: -4px;
+    background: #bebebe;
+    border: none;
+    outline: none;
+    padding: 3px 15px;
+    line-height: 25px;
+    color: #fff;
+}
+.filter-wp form button:hover{ background: #a2a2a2;}
+#filter-product-wp{ background: #fff;}
+#filter-product-wp .section-detail{ padding: 15px 20px;}
+#filter-product-wp .section-detail table{
+    width: 100%;
+    margin-bottom: 15px;
+}
+#filter-product-wp .section-detail table thead tr td{ 
+    font-size: 16px; 
+    color: #000; 
+    padding-bottom: 10px;
+}
+#filter-product-wp .section-detail table tbody tr td{ padding-bottom: 5px;}
+#paging-wp{ text-align: center; margin-top: 25px;}
+#paging-wp .list-item{ display: inline-block;}
+#paging-wp .list-item li{ 
+    float: left;
+    margin-right: 8px!important;
+    width: 40px!important;
+    height: 40px!important;
+    background: none!important;
+    border: none!important;
+    padding: none!important;
+}
+#paging-wp .list-item li:last-child{ margin-right: 0;}
+#paging-wp .list-item li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 100%;
+    background-color: #e1e1e1;
+    line-height: 40px;
+    text-align: center;
+    color: #696969;
+    box-shadow: 0 0 2px rgba(72, 72, 72, 0.51);
+    cursor: pointer;
+}
+#paging-wp .list-item li a:hover{ background: #868686;}

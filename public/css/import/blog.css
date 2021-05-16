@@ -1,0 +1,50 @@
+/*BLOG*/
+.blog-page #selling-wp{ margin-top: 0!important;}
+.blog-page #list-blog-wp .section-title{
+    font-size: 21px;
+    text-transform: uppercase;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+#list-blog-wp .list-item li{ padding-bottom: 30px;}
+#list-blog-wp .list-item li:last-child{ padding-bottom: 0;}
+#list-blog-wp .thumb{ width: 30%;}
+#list-blog-wp .info{ width: 70%; padding-left: 25px;}
+#list-blog-wp .info .title{
+    display: block;
+    font-size: 21px;
+    line-height: 30px;
+    font-family: 'Roboto Regular';
+    color: #1f1f1f;
+    padding-bottom: 5px;
+}
+#list-blog-wp .info .create-date{
+    position: relative;
+    display: block;
+    font-size: 13px;
+    color: #989898;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+#list-blog-wp .info .create-date:before{
+    position: absolute;
+    content: '\f017';
+    font-family: 'FontAwesome';
+    top: 0;
+    left: 0;
+    font-size: 14px;
+}
+#list-blog-wp .info .desc{
+    line-height: 26px;
+    color: #3f3f3f;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -moz-line-clamp: 3;
+    -o-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    max-height: 100%;
+    overflow: hidden;
+}
