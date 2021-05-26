@@ -1,0 +1,17 @@
+/*CHANGE PASS*/
+.change-pass-page #detail-page .section-detail input[type="password"]{
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: 35%;
+    margin-bottom: 15px;
+}
+.change-pass-page #detail-page .section-detail button{
+    display: block;
+    border: none;
+    outline: none;
+    background: #4fa327;
+    color: #fff;
+    padding: 8px 20px;
+}
+.change-pass-page #detail-page .section-detail button:hover{ background: #3a7d19;}

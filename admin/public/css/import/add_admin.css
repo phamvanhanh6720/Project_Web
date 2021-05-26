@@ -1,0 +1,33 @@
+/*ADD ADMIN*/
+#detail-add-admin .section-detail label{ display: block; padding-bottom: 10px; font-family: 'Roboto Medium'; font-weight: normal;}
+#detail-add-admin .section-detail input[type="text"], #detail-add-admin .section-detail input[type="tel"], #detail-add-admin .section-detail input[type="email"], #detail-add-admin .section-detail input[type="select"], #detail-add-admin .section-detail input[type="password"]{
+   display: block;
+   padding: 5px 10px;
+   border: 1px solid #ddd;
+   width: 35%;
+   margin-bottom: 15px;
+}
+#detail-add-admin .section-detail textarea{
+   display: block;
+   padding: 5px 10px;
+   border: 1px solid #ddd;
+   width: 50%;
+   height: 150px;
+   margin-bottom: 25px;
+}
+#detail-add-admin .section-detail select{
+   display: block;
+   padding: 5px 10px;
+   border: 1px solid #ddd;
+   margin-bottom: 25px;
+}
+#detail-add-admin .section-detail button{
+   display: block;
+   border: none;
+   outline: none;
+   background: #4fa327;
+   color: #fff;
+   padding: 8px 20px;
+   margin-bottom: 50px;
+}
+#detail-add-admin .section-detail button:hover{ background: #3a7d19;}

@@ -1,0 +1,38 @@
+/*ADD CAT*/
+.add-cat-page #detail-page .section-detail label{ display: block; padding-bottom: 10px; font-family: 'Roboto Medium'; font-weight: normal;}
+.add-cat-page #detail-page .section-detail input[type="text"]{
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: 35%;
+    margin-bottom: 15px;
+}
+.add-cat-page #detail-page .section-detail textarea{
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: 50%;
+    height: 150px;
+    margin-bottom: 15px;
+}
+.add-cat-page #detail-page .section-detail select{
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+.add-cat-page #detail-page .section-detail button{
+    display: block;
+    border: none;
+    outline: none;
+    background: #4fa327;
+    color: #fff;
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.add-cat-page #detail-page .section-detail button:hover{ background: #3a7d19;}
+#btn-upload-thumb{ font-size: 13px; padding: 0px 10px; display: inline-block;}
+#uploadFile{ margin-bottom: 15px;}
+#uploadFile img{ margin-top: 15px; width: 150px; height: 150px; overflow: hidden; border: 1px solid #ddd;}
+
